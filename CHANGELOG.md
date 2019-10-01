@@ -1,3 +1,6 @@
+## 1.0.2
+* Add Swift and Kotlin support
+
 ## 1.0.1
 * Add Swift Version
 * Update iOS Deploy version to 9.0
