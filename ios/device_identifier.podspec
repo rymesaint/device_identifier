@@ -3,6 +3,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'device_identifier'
+  s.swift_version    = '4.2'
   s.version          = '0.0.1'
   s.summary          = 'A new flutter plugin project.'
   s.description      = <<-DESC
