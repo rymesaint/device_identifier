@@ -1,3 +1,6 @@
+## 1.0.2+1
+* Bugfix swift_version in podspec
+
 ## 1.0.2
 * Add Swift and Kotlin support
 
