@@ -1,3 +1,6 @@
+## 1.0.2+2
+* Version bump
+
 ## 1.0.2+1
 * Bugfix swift_version in podspec
 

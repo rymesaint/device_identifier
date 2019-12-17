@@ -1,6 +1,6 @@
 name: device_identifier
 description: A Flutter plugin for iOS and Android to get the unique device identifier.
-version: 1.0.2+1
+version: 1.0.2+2
 author: Humberto Espinola <h.espinola@icloud.com>
 homepage: https://github.com/hespinola/device_identifier
 
