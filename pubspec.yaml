@@ -5,6 +5,7 @@ homepage: https://github.com/hespinola/device_identifier
 
 environment:
   sdk: ">=3.2.0 <4.0.0"
+  flutter: ">=3.2.0"
 
 dependencies:
   flutter:
@@ -29,7 +30,7 @@ flutter:
         package: com.hespinola.device_identifier
         pluginClass: DeviceIdentifierPlugin
       ios:
-        pluginclass: DeviceIdentifierPlugin
+        pluginClass: DeviceIdentifierPlugin
 
   # To add assets to your plugin package, add an assets section, like this:
   # assets:
