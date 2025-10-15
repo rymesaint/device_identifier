@@ -4,9 +4,11 @@ import 'dart:async';
 import 'package:flutter/services.dart';
 import 'package:device_identifier/device_identifier.dart';
 
-void main() => runApp(MyApp());
+void main() => runApp(const MyApp());
 
 class MyApp extends StatefulWidget {
+  const MyApp({super.key});
+
   @override
   _MyAppState createState() => _MyAppState();
 }
@@ -44,12 +46,8 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        appBar: AppBar(
-          title: const Text('Device ID example app'),
-        ),
-        body: Center(
-          child: Text('Running on: $_deviceId\n'),
-        ),
+        appBar: AppBar(title: const Text('Device ID example app')),
+        body: Center(child: Text('Running on: $_deviceId\n')),
       ),
     );
   }

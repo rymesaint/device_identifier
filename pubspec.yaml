@@ -1,6 +1,6 @@
 name: device_identifier
 description: A Flutter plugin for iOS and Android to get the unique device identifier.
-version: 2.0.0
+version: 2.1.0
 homepage: https://github.com/hespinola/device_identifier
 
 environment:
@@ -10,6 +10,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
+  web: ^0.5.1
 
 dev_dependencies:
   flutter_test:
@@ -23,7 +26,7 @@ flutter:
   # This section identifies this Flutter project as a plugin project.
   # The androidPackage and pluginClass identifiers should not ordinarily
   # be modified. They are used by the tooling to maintain consistency when
-  # adding or updating assets for this project.
+  # adding or updating assets for this project.flutter:
   plugin:
     platforms:
       android:
@@ -31,6 +34,9 @@ flutter:
         pluginClass: DeviceIdentifierPlugin
       ios:
         pluginClass: DeviceIdentifierPlugin
+      web:
+        pluginClass: DeviceIdentifierWeb
+        fileName: device_identifier_web.dart
 
   # To add assets to your plugin package, add an assets section, like this:
   # assets:
